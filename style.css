@@ -1,0 +1,896 @@
+/* Estilo geral do site */
+:root{
+  --bordo: #1f9a94;       /* bordô / vinho escuro */
+  --marrom-escuro: #3b0a0a;
+  --off-white: #f5efe9;   /* fundo claro */
+  --verde-agua: #1f9a94;  /* botão/cta */
+  --texto: #3a3030;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--off-white);
+  color: var(--texto);
+  transition: background-color 0.3s, color 0.3s;
+}
+main, .site-wrapper {
+  max-width: 980px;     /* centraliza e limita a largura do conteúdo */
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+  color: #800020;   /* cor verde mar */
+  text-align: center; /* centralizar o título */
+}
+
+/* Estilo dos parágrafos */
+p {
+  line-height: 1.5;  /* espaçamento entre linhas */
+  font-size: 16px;
+}
+
+/* Links */
+a {
+  color: #8B0000;   /* vermelho escuro */
+  text-decoration: none; /* tirar sublinhado */
+}
+a:hover {
+  color:2F4F4F
+  text-decoration: underline; /* sublinha quando passa o mouse */
+}
+
+/* Estilo geral do site */
+body {
+  background-color: #F5F5F5; /* cor de fundo clara */
+  color: #3B2F2F;               /* cor do texto */
+  font-family: Arial, sans-serif; /* fonte legível */
+  margin: 20px;
+}
+ul {
+  list-style-type: square; /* muda bolinhas para quadrados */
+  padding-left: 20px;
+  color: #333;
+}
+
+a {
+  text-decoration: none; /* tira o sublinhado */
+  color: #8B0000;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffffff; /* muda de cor quando passa o mouse */
+}
+ol li:nth-child(1) {
+  color: red;
+}
+ol li:nth-child(2) {
+  color: green;
+}
+ol li:nth-child(3) {
+  color: blue;
+}
+ol li:nth-child(4) {
+  color: purple;
+}
+ol li:nth-child(5) {
+  color: orange;
+}
+ul {
+  columns: 2; /* divide em 2 colunas */
+}
+
+/* Estilo do título principal */
+h1 {
+  color: #800020;   /* cor verde mar */
+  text-align: center; /* centralizar */
+  border: 2px solid #333; /* borda */
+  padding: 10px;          /* espaçamento interno */
+}
+
+/* Estilo dos parágrafos */
+p {
+  line-height: 1.5;  /* espaçamento entre linhas */
+  font-size: 16px;
+}
+
+/* Links */
+a {
+  color: #8B0000;   /* vermelho escuro */
+  text-decoration: none; /* tirar sublinhado */
+}
+a:hover {
+  text-decoration: underline; /* sublinha quando passa o mouse */
+}
+/* Estilo geral do site */
+body {
+  background-color: #F5F5F5;
+  color: #3B2F2F;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #800020;
+  text-align: center;
+  border: 2px solid #333;
+  padding: 15px;
+  border-radius: 10px; /* cantos arredondados */
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3); /* sombra leve */
+}
+
+/* Estilo dos parágrafos */
+p {
+  line-height: 1.6;      /* espaçamento entre linhas */
+  font-size: 18px;       /* tamanho da fonte */
+  color: #555;           /* cor do texto */
+  text-align: center;    /* centralizar parágrafos */
+  margin-bottom: 15px;   /* espaço entre parágrafos */
+}
+
+/* Links */
+a {
+  color: #8B0000;
+  text-decoration:none
+}
+a:hover{
+  text-decoration:underline;
+}
+  background-color:#2F4F4F4;/*bordo*/
+  padding: 10px;
+  border-radius: 5px; /* cantos arredondados */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: #F5F5F5; /* bordo */
+  padding: 10px;
+  border-radius: 5px; /* cantos arredondados */
+}
+body {
+  background: linear-gradient(to bottom, #d4b9f0, #552585); /* degrade */
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  color: #8B0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #2F4F4F;
+  text-decoration: underline;
+}
+p {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: #F5F5F5; /* azul roxo mais vivo */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* sombra leve */
+}
+.foto {
+  width: 200px;
+  border-radius: 50%; /* deixa redonda */
+  border: 3px solid #333;
+  margin: 20px;
+}
+.sobre {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  width: 80%;
+  text-align: center;
+}
+.sobre h2 {
+  color: #829fbf;
+}
+
+.sonhos {
+  background-color: #7992f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  width: 80%;
+}
+.sonhos h2 {
+  color: #829fbf;
+  text-align: center;
+}
+.sonhos ul {
+  list-style: none;
+  padding: 0;
+}
+.sonhos li {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+/* Imagem */
+.foto {
+  width: 200px;
+  border-radius: 50%; /* deixa redonda */
+  border: 3px solid #333;
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* centraliza a imagem */
+}
+
+/* Seção Sobre mim */
+.sobre {
+  background-color: #ffffff; /* fundo laranja claro */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  width: 80%;
+  text-align: center;
+}
+.sobre h2 {
+  color: #800020; /* título laranja escuro */
+}
+
+/* Seção Meus Sonhos */
+.sonhos {
+  background-color: #ffffff; /* fundo azul claro */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  width: 80%;
+}
+.sonhos h2 {
+  color: #800020; /* título rosa escuro */
+  text-align: center;
+}
+.sonhos ul {
+  list-style: circle; /* bolinhas nos itens */
+  padding-left: 40px;
+  text-align: left;
+}
+.sonhos li {
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+/* Pequena melhoria: mudar cor do fundo ao passar o mouse sobre parágrafos */
+p:hover {
+  background-color: #f2F4F4F;
+}
+h1 {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.sobre h2, .sonhos h2 {
+  border-bottom: 3px solid #800020; /* linha azul escura embaixo do título */
+  padding-bottom: 5px;
+}
+.sonhos li:hover {
+  color: #2F4F4F; /* muda a cor da letra quando passa o mouse */
+  cursor: pointer; /* muda o cursor pra mãozinha */
+}
+.sobre:hover {
+  background-color: #2F4F4F; /* laranja clarinho mais vivo */
+  transition: 0.3s; /* deixa a mudança suave */
+}
+.sonhos:hover {
+  background-color: #2F4F4F; /* azul clarinho mais vivo */
+  transition: 0.3s;
+}
+p:hover {
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+button {
+  background-color: var(--bordo);
+  color: var(--branco);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--vermelho-escuro);
+}
+button:nth-of-type(2) {
+  background-color: #ff4d88;
+}
+button:nth-of-type(2):hover {
+  background-color: #e6005c;
+}
+
+
+section {
+  background-color: var(--branco);
+  border: 2px solid var(--verde-agua);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+.hobbies {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 2px solid #2F4F4F;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+}
+
+.card h3 {
+  color: #333;
+}
+
+.card button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #004d40;
+}
+#mensagem-hobby {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #00796b;
+  font-weight: bold;
+}
+.contato {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.contato h2 {
+  color: #00796b;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004d40;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+ol {
+  padding-left: 20px;
+}
+a {
+  color: #8B0000;
+  text-decoration: e;
+}
+a:hover {
+  color: #8B0000;
+  text-decoration: underline;
+}
+nav {
+  background-color: var(--bordo);
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+/* Menu de navegação */
+nav ul {
+  list-style-type: none; /* tira as bolinhas */
+  background-color: #4B1E2F; /* bordô escuro */
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline; /* deixa os itens lado a lado */
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white; /* links em branco */
+  text-decoration: none; /* tira o sublinhado */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #7FFFD4; /* verde-água quando passa o mouse */
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  .hobbies .card {
+    width: 90%; /* cards ocupam mais largura no celular */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+h1 {
+  color: var(--bordo);
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: var(--vermelho-escuro);
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+h3 {
+  color: var(--verde-agua);
+  font-size: 1.5em;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Reseta estilos padrões chatos do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #800020; /* vinho/bordô */
+  color: white;
+  padding: 20px;
+}
+
+/* Deixa título e menu lado a lado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Remove bolinhas da lista */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Links do menu */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* --- Header novo: visual limpo e legível --- */
+header {
+  background: linear-gradient(135deg, #3b0a0a 0%, #6a0f16 100%); /* gradiente vinho */
+  color: white;
+  padding: 18px;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+/* título do site dentro do header */
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.6px;
+  display: inline-block;
+  background: rgba(255,255,255,0.05);
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+/* navegação principal abaixo do título */
+nav.primary {
+  margin-top: 12px;
+}
+
+nav.primary a {
+  color: rgba(255,255,255,0.9);
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav.primary a:hover {
+  text-decoration: underline;
+}
+
+/* responsividade mínima: empilha em telas muito pequenas */
+@media (max-width: 500px) {
+  .site-title { font-size: 1.2rem; padding: 8px 12px; }
+  nav.primary { display: block; margin-top: 8px; }
+  nav.primary a { display: inline-block; margin: 6px 8px; }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-teste {
+  display: flex;
+  gap: 10px;
+
+  flex-direction:column ; 
+  justify-content:flex-end ; 
+    /* padrão → um do lado do outro */
+  /* flex-direction: column;   // fica um embaixo do outro */
+  /* flex-direction: row-reverse;  // um do lado do outro mas invertido */
+  /* flex-direction: column-reverse; // um embaixo do outro mas invertido */
+
+}
+
+.caixa {
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: #2e2e2e;
+  padding: 20px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  background-color: #8b0000;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+ .container {
+  display: flex;
+  height: 300px;
+  background: #f3f3f3;
+  border: 2px solid #999;
+  margin: 20px;
+  padding: 10px;
+
+  justify-content: center; /* Centraliza no eixo principal */
+  align-items: center; /* Centraliza no eixo cruzado */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha */
+  gap: 15px; /* Espaço entre as caixas */
+}
+
+.caixa {
+  background: #4682b4;
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.flex-desafio {
+  display: flex;         /* ativa o flexbox */
+  justify-content: center;  /* alinha as caixas no centro na horizontal */
+  align-items: center;      /* alinha no centro na vertical */
+  flex-wrap: wrap;          /* faz quebrar linha quando não cabe */
+  gap: 10px;                /* espaço entre as caixas */
+  height: 300px;            /* altura total da seção */
+  background-color: #2c2c2c; /* fundo da seção */
+}
+
+.flex-desafio div {
+  background-color: #8b0000; /* cor das caixas */
+  color: white;              /* cor do texto dentro delas */
+  font-size: 24px;           /* tamanho dos números */
+  width: 60px;               /* largura das caixas */
+  height: 60px;              /* altura das caixas */
+  display: flex;             /* ativa flex dentro da caixa */
+  justify-content: center;   /* centraliza número horizontalmente */
+  align-items: center;       /* centraliza número verticalmente */
+  border-radius: 8px;        /* bordas arredondadas */
+}
+/* --- Header --- */
+header {
+  padding: 16px 20px;
+  background: var(--bordo); /* usa a variável de cor já definida no teu CSS */
+  color: var(--branco);
+}
+
+header .topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Menu principal */
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.menu-principal a {
+  color: var(--branco);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu-principal a:hover,
+.menu-principal a:focus {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* --- Layout principal: main + aside responsivo --- */
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap; /* permite quebra em telas pequenas */
+}
+
+/* Conteúdo principal ocupa mais espaço */
+main .conteudo {
+  flex: 1 1 600px; /* cresce, encolhe, base 600px */
+  min-width: 300px;
+}
+
+/* Barra lateral menor */
+main .lateral {
+  flex: 0 0 280px; /* não cresce; largura fixa 280px (se couber) */
+  min-width: 220px;
+}
+
+/* Visual dos blocos */
+.conteudo, .lateral {
+  background: var(--branco);
+  border: 2px solid var(--verde-agua);
+  border-radius: 10px;
+  padding: 16px;
+}
+footer {
+  background-color: #1f9a94;  /* mesmo tom do topo pra combinar */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* --- Ajustes para telas pequenas --- */
+@media (max-width: 780px) {
+  /* empilha o conteúdo: sidebar abaixo do conteúdo principal */
+  main {
+    flex-direction: column;
+  }
+
+  .menu-principal ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  header .topo {
+    align-items: center;
+  }
+}
+button, a {
+  transition: all 0.3s ease;
+}
+
+button:hover, a:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+/* Menu toggle (escondido por padrão em desktop) */
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: 2px solid var(--branco);
+  color: var(--branco);
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Estilo básico do menu (desktop) */
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+/* Responsivo: quando a tela for pequena */
+@media (max-width: 780px) {
+  .menu-toggle {
+  main {
+    flex-direction: column;
+  }
+  .conteudo, .lateral {
+    display: inline-block; /* mostra o botão no mobile */
+    min-width: auto;
+    width: 100%;
+  }
+
+  .menu-principal ul {
+    display: none; /* começa escondido */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .menu-principal ul.show {
+    display: flex; /* quando a classe show for adicionada, abre */
+  }
+
+  /* Ajustes do header topo: empilha */
+  header .topo {
+    align-items: center;
+  }
+}
+/* Formulário contato */
+#form-contato input, #form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#form-contato button {
+  margin-top: 8px;
+  background: var(--bordo);
+  color: var(--branco);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#menu {
+  display: flex;
+  gap: 20px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Responsivo: em telas menores */
+@media (max-width: 700px) {
+  #menu {
+    display: none;
+    flex-direction: column;
+    background-color: #4caf50;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #menu.show {
+    display: flex;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+}
+

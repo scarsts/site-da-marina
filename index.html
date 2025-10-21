@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Site da Marina</title>
+<!-- Google Font: Poppins (clean, moderno) -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="site-title">Site da Marina</div>
+
+  <nav class="primary">
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contato">Contato</a>
+    <a href="#passos para estudar programação">Programaçao</a>
+  </nav>
+</header>
+<section class="hobbies">
+  <h2>Minhas coisas favoritas</h2>
+
+
+<div class="card">
+    <h3>Ballet</h3>
+    <button onclick="mostrarHobby('Ballet')">Saiba mais</button>
+</div>
+
+  <div class="card">
+    <h3>Jogos</h3>
+    <button onclick="mostrarHobby('Jogos')">Saiba mais</button>
+  </div>
+
+  <div class="card">
+    <h3>Programação</h3>
+<button onclick="location.href='#passos para estudar programação'">Saiba mais</button>
+  </div>
+<section/>
+
+<h2 id="rotina">Minha rotina (resumida)</h2>
+<ol>
+  <li>Acordar cedo</li>
+  <li>Estudar conteúdos que me interessem no momento, como: química, arte, programação</li>
+  <li>Jogar videogame</li>
+</ol>
+
+<section id="links">
+  <h2>Meus links</h2>
+  <p>
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="https://github.com" target="_blank">GitHub</a><br>
+    <a href="https://developer.mozilla.org/pt-BR/" target="_blank">Documentação Mozilla</a>
+  </p>
+</section>
+  <h1>Oi, eu sou a Fernanda! </h1> <img src="https://i.imgur.com/8Km9tLL.png" alt="Foto" class="foto">
+  <p>Spoiler de mim: eu amo cozinhar e inventar novas receitas!</p>
+<section class="sobre">
+  <h2>Sobre mim</h2>
+  <p>Sou a Fernanda, adoro arte, jogos de suspense e estou aprendendo a pintar.</p>
+</section>
+ 
+<section class="sonhos">
+  <h2>Meus sonhos</h2>
+  <ul>
+    <li>Viajar o mundo</li>
+    <li>Trabalhar com arte</li>
+    <li>Ter liberdade e independência</li>
+  </ul>
+<h2 id="hobbies">Meus hobbies</h2>
+<ul>
+  <li>Jogar games de suspense</li>
+  <li>Pintar</li>
+  <li>Estudar programação</li>
+  <li>Ouvir música</li>
+</ul>
+<h2>Passos para estudar programação</h2>
+<ol>
+  <li>Aprender HTML e CSS</li>
+  <li>Aprender JavaScript</li>
+  <li>Praticar com projetos simples</li>
+  <li>Avançar para Python</li>
+  <li>Criar meu próprio jogo 🎮</li>
+</ol>
+<h2>Meus links favoritos</h2>
+<p>
+  <a href="https://www.google.com" target="_blank">🔎 Google</a><br>
+  <a href="https://github.com" target="_blank">💻 GitHub</a><br>
+  <a href="https://developer.mozilla.org/pt-BR/" target="_blank">📚 Documentação Mozilla</a>
+</p>
+
+<script>
+</section>
+<button onclick="mostrarMensagem()">Clique aqui</button>
+<p id="mensagem"></p>
+  function mostrarMensagem() {
+    document.getElementById("mensagem").innerHTML = "Também sou curiosa!;
+}
+
+  function mudarFundo() {
+    // força um fundo sólido e remove qualquer imagem/degradê
+    document.body.style.background = "#ffe6f0";
+    document.body.style.backgroundImage = "none";
+  }
+</script>
+<h2>Minha imagem favorita abaixo</h2>
+<a href="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/470f/live/708e92c0-dd53-11ee-8bf3-195418ba9285.jpg.webp"_blank">
+  <img src="mulher.jpg" alt="Veja!" width="150">
+</a>
+<section id="contato">
+  <h3>Seu contato</h3>
+  <form id="form-contato" onsubmit="return false;">
+    <label for="nome">Nome</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="seu@email.com" required><br><br>
+
+    <label for="mensagem">Mensagem</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Aqui aparecerá o resumo quando o usuário enviar -->
+  <div id="resultado-contato"></div>
+</section>
+  <h2>Contato</h2>
+  <p>Email: stsmarina17@gmail.com</p>
+</section>
+<h2>Fale comigo</h2>
+<p>
+  <a href="https://wa.me/5548996500660" target="_blank">Me chama no WhatsApp</a>
+</p>
+<script>
+  function mostrarHobby(hobby) {
+    document.getElementById("mensagem-hobby").innerHTML = 
+      "Você clicou em " + hobby + "!";
+  }
+</script>
+
+<footer>
+  <p>Feito por M.S - 2025</p>
+</footer>
+<script>
+  // Toggle do menu mobile
+  (function() {
+    const btn = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('menu-list');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', () => {
+      const opened = menu.classList.toggle('show');
+      btn.setAttribute('aria-expanded', opened ? 'true' : 'false');
+    });
+  })();
+</script>
+
+<script>
+  (function() {
+    const form = document.getElementById('form-contato');
+    const resultado = document.getElementById('resultado-contato');
+    if (!form || !resultado) return;
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); // evita envio real
+      const nome = document.getElementById('nome').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const mensagem = document.getElementById('mensagem').value.trim();
+
+      // Validação simples
+      if (!nome || !email || !mensagem) {
+        resultado.innerHTML = '<p style="color: #f44336;">Preencha todos os campos.</p>';
+        return;
+      }
+
+      // Exibe os dados (aqui você poderia enviar por fetch a um servidor real)
+      resultado.innerHTML = `
+        <h3>Mensagem recebida</h3>
+        <p><strong>Nome:</strong> ${escapeHtml(nome)}</p>
+        <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+        <p><strong>Mensagem:</strong> ${escapeHtml(mensagem)}</p>
+        <p style="color: green;">Obrigado! Em breve eu respondo :)</p>
+      `;
+
+      form.reset();
+    });
+
+    // pequena função de escape para segurança visual
+    function escapeHtml(str) {
+      return str.replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#39;');
+    }
+  })();
+</script>
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const menu = document.getElementById('menu');
+
+  menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
