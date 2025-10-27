@@ -10,21 +10,22 @@
 <body>
 <header>
   <div class="site-title">Site da Marina</div>
-
   <nav class="primary">
     <a href="#sobre">Sobre</a>
-    <a href="#projetos">Projetos</a>
     <a href="#hobbies">Hobbies</a>
     <a href="#contato">Contato</a>
-    <a href="#passos para estudar programação">Programaçao</a>
   </nav>
 </header>
-<section class="hobbies">
+<div class="site-wrapper">
+  <main class="grid-main">
+
+ <section id="hobbies" class="hobbies">
+
   <h2>Minhas coisas favoritas</h2>
 
 
 <div class="card">
-    <h3>Ballet</h3>
+    <h3>Ballet</h3> 
     <button onclick="mostrarHobby('Ballet')">Saiba mais</button>
 </div>
 
@@ -57,7 +58,7 @@
   <h1>Oi, eu sou a Fernanda! </h1> <img src="https://i.imgur.com/8Km9tLL.png" alt="Foto" class="foto">
   <p>Spoiler de mim: eu amo cozinhar e inventar novas receitas!</p>
 <section class="sobre">
-  <h2>Sobre mim</h2>
+  <h2 id="sobre">Sobre mim </h2>
   <p>Sou a Fernanda, adoro arte, jogos de suspense e estou aprendendo a pintar.</p>
 </section>
  
@@ -89,6 +90,10 @@
   <a href="https://github.com" target="_blank">💻 GitHub</a><br>
   <a href="https://developer.mozilla.org/pt-BR/" target="_blank">📚 Documentação Mozilla</a>
 </p>
+<h2 id="ballet">Ballet</h2>
+<p>Bela dança, movimentos delicados e suaves que sempre me chamaram a atenção, desejo um dia visitar o Ballet Bolshoi.</p>
+ 
+
 
 <script>
 </section>
@@ -129,15 +134,11 @@
   <h2>Contato</h2>
   <p>Email: stsmarina17@gmail.com</p>
 </section>
-<h2>Fale comigo</h2>
-<p>
-  <a href="https://wa.me/5548996500660" target="_blank">Me chama no WhatsApp</a>
-</p>
+
 <script>
   function mostrarHobby(hobby) {
     document.getElementById("mensagem-hobby").innerHTML = 
       "Você clicou em " + hobby + "!";
-  }
 </script>
 
 <footer>
@@ -204,5 +205,7 @@
     menu.classList.toggle('show');
   });
 </script>
+</main>
+</div>
 </body>
 </html>
