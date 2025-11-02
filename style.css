@@ -37,7 +37,7 @@ a {
   text-decoration: none; /* tirar sublinhado */
 }
 a:hover {
-  color:2F4F4F
+  color:#2F4F4F
   text-decoration: underline; /* sublinha quando passa o mouse */
 }
 
@@ -824,26 +824,31 @@ button:hover, a:hover {
   }
 }
 /* Formulário contato */
-input, textarea {
-    background-color: white; /* Fundo branco */
-    color: #333; /* Texto escuro */
-    border: 2px solid #2c7a7b; /* Borda visível */
-    padding: 10px;
-    border-radius: 5px;
-    width: 100%;
-    font-size: 16px;
+#form-contato input, 
+#form-contato textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #2c7a7b;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
 }
 
-input::placeholder, textarea::placeholder {
-    color: #999; /* Cor do placeholder (texto de exemplo) */
+#form-contato input::placeholder, 
+#form-contato textarea::placeholder {
+  color: #999999;
+  opacity: 1;
 }
 
-input:focus, textarea:focus {
-    outline: none;
-    border-color: #38b2ac; /* Cor quando clica no campo */
-    background-color: #6938b2;
+#form-contato input:focus, 
+#form-contato textarea:focus {
+  outline: none;
+  border-color: #38b2ac;
+  background-color: #f0f9ff;
 }
-
 #form-contato button {
   margin-top: 8px;
   background: var(--bordo);
@@ -984,3 +989,14 @@ header, footer {
   .projetos-grid { gap: 12px; grid-template-columns: 1fr; }
   .site-wrapper { padding: 0 12px; margin: 18px auto; }
 }
+.btn-saiba-mais {
+  background-color: var(--bordo);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
