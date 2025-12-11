@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Site da Marina</title>
-<!-- Google Font: Poppins (clean, moderno) -->
+<!-- Google Font: Poppins  -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -99,7 +99,6 @@
 }
 
   function mudarFundo() {
-    // força um fundo sólido e remove qualquer imagem/degradê
     document.body.style.background = "#ffe6f0";
     document.body.style.backgroundImage = "none";
   }
@@ -123,7 +122,7 @@
     <button type="submit">Enviar</button>
   </form>
 
-  <!-- Aqui aparecerá o resumo quando o usuário enviar -->
+  
   <div id="resultado-contato"></div>
 </section>
   <h2>Contato</h2>
@@ -140,7 +139,8 @@
   <p>Feito por M.S - 2025</p>
 </footer>
 <script>
-  // Toggle do menu mobile
+  
+
   (function() {
     const btn = document.querySelector('.menu-toggle');
     const menu = document.getElementById('menu-list');
@@ -164,13 +164,13 @@
       const email = document.getElementById('email').value.trim();
       const mensagem = document.getElementById('mensagem').value.trim();
 
-      // Validação simples
+      
       if (!nome || !email || !mensagem) {
         resultado.innerHTML = '<p style="color: #f44336;">Preencha todos os campos.</p>';
         return;
       }
 
-      // Exibe os dados (aqui você poderia enviar por fetch a um servidor real)
+      
       resultado.innerHTML = `
         <h3>Mensagem recebida</h3>
         <p><strong>Nome:</strong> ${escapeHtml(nome)}</p>
@@ -182,7 +182,7 @@
       form.reset();
     });
 
-    // pequena função de escape para segurança visual
+    // função de escape para segurança visual
     function escapeHtml(str) {
       return str.replaceAll('&', '&amp;')
                 .replaceAll('<', '&lt;')

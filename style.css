@@ -1,9 +1,9 @@
 /* Estilo geral do site */
 :root{
-  --bordo: #1f9a94;       /* bordô / vinho escuro */
+  --bordo: #1f9a94;       
   --marrom-escuro: #3b0a0a;
-  --off-white: #f5efe9;   /* fundo claro */
-  --verde-agua: #1f9a94;  /* botão/cta */
+  --off-white: #f5efe9;   
+  --verde-agua: #1f9a94;   
   --texto: #3a3030;
 }
 body {
@@ -14,54 +14,54 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 main, .site-wrapper {
-  max-width: 980px;     /* centraliza e limita a largura do conteúdo */
+  max-width: 980px;     
   margin: 30px auto;
   padding: 0 20px;
 }
 
-/* Estilo do título principal */
+
 h1 {
-  color: #800020;   /* cor verde mar */
-  text-align: center; /* centralizar o título */
+  color: #800020;   
+  text-align: center; 
 }
 
-/* Estilo dos parágrafos */
+
 p {
-  line-height: 1.5;  /* espaçamento entre linhas */
+  line-height: 1.5;  
   font-size: 16px;
 }
 
 /* Links */
 a {
-  color: #8B0000;   /* vermelho escuro */
-  text-decoration: none; /* tirar sublinhado */
+  color: #8B0000;   
+  text-decoration: none; 
 }
 a:hover {
   color:#2F4F4F
-  text-decoration: underline; /* sublinha quando passa o mouse */
+  text-decoration: underline; 
 }
 
 /* Estilo geral do site */
 body {
-  background-color: #F5F5F5; /* cor de fundo clara */
-  color: #3B2F2F;               /* cor do texto */
-  font-family: Arial, sans-serif; /* fonte legível */
+  background-color: #F5F5F5; 
+  color: #3B2F2F;               
+  font-family: Arial, sans-serif; 
   margin: 20px;
 }
 ul {
-  list-style-type: square; /* muda bolinhas para quadrados */
+  list-style-type: square; 
   padding-left: 20px;
   color: #333;
 }
 
 a {
-  text-decoration: none; /* tira o sublinhado */
+  text-decoration: none; 
   color: #8B0000;
   font-weight: bold;
 }
 
 a:hover {
-  color: #ffffff; /* muda de cor quando passa o mouse */
+  color: #ffffff; 
 }
 ol li:nth-child(1) {
   color: red;
@@ -79,32 +79,34 @@ ol li:nth-child(5) {
   color: orange;
 }
 ul {
-  columns: 2; /* divide em 2 colunas */
+  columns: 2; 
 }
 
 /* Estilo do título principal */
 h1 {
-  color: #800020;   /* cor verde mar */
-  text-align: center; /* centralizar */
-  border: 2px solid #333; /* borda */
-  padding: 10px;          /* espaçamento interno */
+  color: #800020;   
+  text-align: center; 
+  border: 2px solid #333; 
+  padding: 10px;         
 }
 
 /* Estilo dos parágrafos */
 p {
-  line-height: 1.5;  /* espaçamento entre linhas */
+  line-height: 1.5;  
   font-size: 16px;
 }
 
 /* Links */
 a {
-  color: #8B0000;   /* vermelho escuro */
-  text-decoration: none; /* tirar sublinhado */
+  color: #8B0000;   
+  text-decoration: none; 
 }
 a:hover {
-  text-decoration: underline; /* sublinha quando passa o mouse */
+  text-decoration: underline; 
 }
-/* Estilo geral do site */
+
+
+
 body {
   background-color: #F5F5F5;
   color: #3B2F2F;
@@ -117,17 +119,17 @@ h1 {
   text-align: center;
   border: 2px solid #333;
   padding: 15px;
-  border-radius: 10px; /* cantos arredondados */
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.3); /* sombra leve */
+  border-radius: 10px; 
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3); 
 }
 
 /* Estilo dos parágrafos */
 p {
-  line-height: 1.6;      /* espaçamento entre linhas */
-  font-size: 18px;       /* tamanho da fonte */
-  color: #555;           /* cor do texto */
-  text-align: center;    /* centralizar parágrafos */
-  margin-bottom: 15px;   /* espaço entre parágrafos */
+  line-height: 1.6;      
+  font-size: 18px;       
+  color: #555;           
+  text-align: center;    
+  margin-bottom: 15px;   
 }
 
 /* Links */
@@ -138,9 +140,9 @@ a {
 a:hover{
   text-decoration:underline;
 }
-  background-color:#2F4F4F4;/*bordo*/
+  background-color:#2F4F4F4;
   padding: 10px;
-  border-radius: 5px; /* cantos arredondados */
+  border-radius: 5px; 
 }
 body {
   display: flex;
@@ -153,12 +155,12 @@ p {
   color: #555;
   text-align: center;
   margin-bottom: 15px;
-  background-color: #F5F5F5; /* bordo */
+  background-color: #F5F5F5; 
   padding: 10px;
-  border-radius: 5px; /* cantos arredondados */
+  border-radius: 5px; 
 }
 body {
-  background: linear-gradient(to bottom, #d4b9f0, #552585); /* degrade */
+  background: linear-gradient(to bottom, #d4b9f0, #552585); 
   color: #333;
   font-family: Arial, sans-serif;
   margin: 20px;
@@ -181,14 +183,14 @@ p {
   color: #555;
   text-align: center;
   margin-bottom: 15px;
-  background-color: #F5F5F5; /* azul roxo mais vivo */
+  background-color: #F5F5F5; 
   padding: 10px;
   border-radius: 8px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* sombra leve */
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
 }
 .foto {
   width: 200px;
-  border-radius: 50%; /* deixa redonda */
+  border-radius: 50%; 
   border: 3px solid #333;
   margin: 20px;
 }
@@ -226,20 +228,21 @@ p {
   font-size: 18px;
   text-align: center;
 }
-/* Imagem */
+
+
 .foto {
   width: 200px;
-  border-radius: 50%; /* deixa redonda */
+  border-radius: 50%; 
   border: 3px solid #333;
   margin: 20px;
   display: block;
   margin-left: auto;
-  margin-right: auto; /* centraliza a imagem */
+  margin-right: auto; 
 }
 
 /* Seção Sobre mim */
 .sobre {
-  background-color: #ffffff; /* fundo laranja claro */
+  background-color: #ffffff; 
   padding: 20px;
   border-radius: 10px;
   margin: 20px auto;
@@ -248,12 +251,12 @@ p {
   text-align: center;
 }
 .sobre h2 {
-  color: #800020; /* título laranja escuro */
+  color: #800020; 
 }
 
 /* Seção Meus Sonhos */
 .sonhos {
-  background-color: #ffffff; /* fundo azul claro */
+  background-color: #ffffff; 
   padding: 20px;
   border-radius: 10px;
   margin: 20px auto;
@@ -261,11 +264,11 @@ p {
   width: 80%;
 }
 .sonhos h2 {
-  color: #800020; /* título rosa escuro */
+  color: #800020; 
   text-align: center;
 }
 .sonhos ul {
-  list-style: circle; /* bolinhas nos itens */
+  list-style: circle; 
   padding-left: 40px;
   text-align: left;
 }
@@ -274,7 +277,7 @@ p {
   font-size: 18px;
 }
 
-/* Pequena melhoria: mudar cor do fundo ao passar o mouse sobre parágrafos */
+/
 p:hover {
   background-color: #f2F4F4F;
 }
@@ -282,19 +285,19 @@ h1 {
   text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 .sobre h2, .sonhos h2 {
-  border-bottom: 3px solid #800020; /* linha azul escura embaixo do título */
+  border-bottom: 3px solid #800020; 
   padding-bottom: 5px;
 }
 .sonhos li:hover {
-  color: #2F4F4F; /* muda a cor da letra quando passa o mouse */
-  cursor: pointer; /* muda o cursor pra mãozinha */
+  color: #2F4F4F; 
+  cursor: pointer; 
 }
 .sobre:hover {
-  background-color: #2F4F4F; /* laranja clarinho mais vivo */
-  transition: 0.3s; /* deixa a mudança suave */
+  background-color: #2F4F4F; 
+  transition: 0.3s; 
 }
 .sonhos:hover {
-  background-color: #2F4F4F; /* azul clarinho mais vivo */
+  background-color: #2F4F4F; /
   transition: 0.3s;
 }
 p:hover {
@@ -440,28 +443,30 @@ nav a {
 nav a:hover {
   color: #ff6600;
 }
-/* Menu de navegação */
+
+
+
 nav ul {
-  list-style-type: none; /* tira as bolinhas */
-  background-color: #4B1E2F; /* bordô escuro */
+  list-style-type: none; 
+  background-color: #4B1E2F; 
   padding: 10px;
   text-align: center;
   margin: 0;
 }
 
 nav ul li {
-  display: inline; /* deixa os itens lado a lado */
+  display: inline; 
   margin: 0 15px;
 }
 
 nav ul li a {
-  color: white; /* links em branco */
-  text-decoration: none; /* tira o sublinhado */
+  color: white; 
+  text-decoration: none; 
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #7FFFD4; /* verde-água quando passa o mouse */
+  color: #7FFFD4; 
 }
 @media (max-width: 600px) {
   nav ul {
@@ -475,7 +480,7 @@ nav ul li a:hover {
   }
 
   .hobbies .card {
-    width: 90%; /* cards ocupam mais largura no celular */
+    width: 90%; 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -500,42 +505,42 @@ h3 {
 html {
   scroll-behavior: smooth;
 }
-/* Reseta estilos padrões chatos do navegador */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilo geral do corpo */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   color: #333;
 }
 
-/* Cabeçalho */
+
 header {
   background-color: #800020; /* vinho/bordô */
   color: white;
   padding: 20px;
 }
 
-/* Deixa título e menu lado a lado */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Remove bolinhas da lista */
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-/* Links do menu */
+
 nav a {
   color: white;
   text-decoration: none;
@@ -545,9 +550,13 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-/* --- Header novo: visual limpo e legível --- */
+
+
+
+
+
 header {
-  background: linear-gradient(135deg, #3b0a0a 0%, #6a0f16 100%); /* gradiente vinho */
+  background: linear-gradient(135deg, #3b0a0a 0%, #6a0f16 100%); 
   color: white;
   padding: 18px;
   border-radius: 6px;
@@ -555,7 +564,11 @@ header {
   text-align: center;
 }
 
-/* título do site dentro do header */
+
+
+
+
+
 .site-title {
   font-size: 2rem;
   font-weight: 700;
@@ -567,7 +580,7 @@ header {
   border-radius: 8px;
 }
 
-/* navegação principal abaixo do título */
+
 nav.primary {
   margin-top: 12px;
 }
@@ -583,7 +596,7 @@ nav.primary a:hover {
   text-decoration: underline;
 }
 
-/* responsividade mínima: empilha em telas muito pequenas */
+
 @media (max-width: 500px) {
   .site-title { font-size: 1.2rem; padding: 8px 12px; }
   nav.primary { display: block; margin-top: 8px; }
@@ -598,11 +611,6 @@ body {
 
   flex-direction:column ; 
   justify-content:flex-end ; 
-    /* padrão → um do lado do outro */
-  /* flex-direction: column;   // fica um embaixo do outro */
-  /* flex-direction: row-reverse;  // um do lado do outro mas invertido */
-  /* flex-direction: column-reverse; // um embaixo do outro mas invertido */
-
 }
 
 .caixa {
@@ -642,10 +650,10 @@ body {
   margin: 20px;
   padding: 10px;
 
-  justify-content: center; /* Centraliza no eixo principal */
-  align-items: center; /* Centraliza no eixo cruzado */
-  flex-wrap: wrap; /* Permite que os itens quebrem linha */
-  gap: 15px; /* Espaço entre as caixas */
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 15px; 
 }
 
 .caixa {
@@ -656,30 +664,30 @@ body {
   border-radius: 10px;
 }
 .flex-desafio {
-  display: flex;         /* ativa o flexbox */
-  justify-content: center;  /* alinha as caixas no centro na horizontal */
-  align-items: center;      /* alinha no centro na vertical */
-  flex-wrap: wrap;          /* faz quebrar linha quando não cabe */
-  gap: 10px;                /* espaço entre as caixas */
-  height: 300px;            /* altura total da seção */
-  background-color: #2c2c2c; /* fundo da seção */
+  display: flex;         
+  justify-content: center;  
+  align-items: center;      
+  flex-wrap: wrap;          
+  gap: 10px;                
+  height: 300px;            
+  background-color: #2c2c2c; 
 }
 
 .flex-desafio div {
-  background-color: #8b0000; /* cor das caixas */
-  color: white;              /* cor do texto dentro delas */
-  font-size: 24px;           /* tamanho dos números */
-  width: 60px;               /* largura das caixas */
-  height: 60px;              /* altura das caixas */
-  display: flex;             /* ativa flex dentro da caixa */
-  justify-content: center;   /* centraliza número horizontalmente */
-  align-items: center;       /* centraliza número verticalmente */
-  border-radius: 8px;        /* bordas arredondadas */
+  background-color: #8b0000; 
+  color: white;              
+  font-size: 24px;           
+  width: 60px;               
+  height: 60px;              
+  display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  border-radius: 8px;        
 }
-/* --- Header --- */
+
 header {
   padding: 16px 20px;
-  background: var(--bordo); /* usa a variável de cor já definida no teu CSS */
+  background: var(--bordo); 
   color: var(--branco);
 }
 
@@ -690,7 +698,7 @@ header .topo {
   gap: 6px;
 }
 
-/* Menu principal */
+
 .menu-principal ul {
   list-style: none;
   display: flex;
@@ -712,28 +720,28 @@ header .topo {
   text-decoration: underline;
 }
 
-/* --- Layout principal: main + aside responsivo --- */
+
 main {
   display: flex;
   gap: 20px;
   padding: 20px;
   align-items: flex-start;
-  flex-wrap: wrap; /* permite quebra em telas pequenas */
+  flex-wrap: wrap; 
 }
 
-/* Conteúdo principal ocupa mais espaço */
+
 main .conteudo {
-  flex: 1 1 600px; /* cresce, encolhe, base 600px */
+  flex: 1 1 600px; 
   min-width: 300px;
 }
 
-/* Barra lateral menor */
+
 main .lateral {
-  flex: 0 0 280px; /* não cresce; largura fixa 280px (se couber) */
+  flex: 0 0 280px; 
   min-width: 220px;
 }
 
-/* Visual dos blocos */
+
 .conteudo, .lateral {
   background: var(--branco);
   border: 2px solid var(--verde-agua);
@@ -741,7 +749,7 @@ main .lateral {
   padding: 16px;
 }
 footer {
-  background-color: #1f9a94;  /* mesmo tom do topo pra combinar */
+  background-color: #1f9a94;  
   color: white;
   text-align: center;
   padding: 15px;
@@ -749,9 +757,8 @@ footer {
   border-radius: 0 0 10px 10px;
 }
 
-/* --- Ajustes para telas pequenas --- */
+
 @media (max-width: 780px) {
-  /* empilha o conteúdo: sidebar abaixo do conteúdo principal */
   main {
     flex-direction: column;
   }
@@ -773,7 +780,7 @@ button:hover, a:hover {
   transform: scale(1.05);
   opacity: 0.8;
 }
-/* Menu toggle (escondido por padrão em desktop) */
+
 .menu-toggle {
   display: none;
   background: transparent;
@@ -785,7 +792,7 @@ button:hover, a:hover {
   font-size: 18px;
 }
 
-/* Estilo básico do menu (desktop) */
+
 .menu-principal ul {
   list-style: none;
   display: flex;
@@ -795,35 +802,36 @@ button:hover, a:hover {
   margin: 10px 0 0 0;
 }
 
-/* Responsivo: quando a tela for pequena */
+
 @media (max-width: 780px) {
   .menu-toggle {
   main {
     flex-direction: column;
   }
   .conteudo, .lateral {
-    display: inline-block; /* mostra o botão no mobile */
+    display: inline-block; 
     min-width: auto;
     width: 100%;
   }
 
   .menu-principal ul {
-    display: none; /* começa escondido */
+    display: none; 
     flex-direction: column;
     gap: 10px;
     margin-top: 8px;
   }
 
   .menu-principal ul.show {
-    display: flex; /* quando a classe show for adicionada, abre */
+    display: flex; 
   }
 
-  /* Ajustes do header topo: empilha */
+  
   header .topo {
     align-items: center;
   }
 }
-/* Formulário contato */
+
+
 #form-contato input, 
 #form-contato textarea {
   width: 100%;
@@ -892,7 +900,7 @@ header {
   cursor: pointer;
 }
 
-/* Responsivo: em telas menores */
+
 @media (max-width: 700px) {
   #menu {
     display: none;
@@ -911,34 +919,31 @@ header {
   }
 }
 
-/* ===== Grid layout principal (Dia 22) ===== */
 
-/* container que centraliza o conteúdo */
 .site-wrapper {
   max-width: 1100px;
   margin: 28px auto;
   padding: 0 20px;
   display: grid;
-  grid-template-columns: 1fr 320px; /* conteúdo principal + sidebar */
+  grid-template-columns: 1fr 320px; 
   gap: 28px;
   align-items: start;
 }
 
-/* main usa grid para organizar seções internamente */
+
 .grid-main {
   display: grid;
-  grid-template-columns: 1fr; /* uma coluna por padrão */
+  grid-template-columns: 1fr; 
   gap: 20px;
 }
 
-/* projetos: grid de cartões (vai dentro da section #projetos) */
+
 .projetos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
 }
 
-/* cartão do projeto */
 .projeto-card {
   background: #fff;
   border: 1px solid rgba(0,0,0,0.06);
@@ -953,7 +958,7 @@ header {
   box-shadow: 0 12px 30px rgba(0,0,0,0.10);
 }
 
-/* Sidebar (perfil / links) */
+
 .sidebar {
   background: #fff;
   border: 1px solid rgba(0,0,0,0.06);
@@ -962,24 +967,24 @@ header {
   box-shadow: 0 6px 18px rgba(0,0,0,0.04);
 }
 
-/* Header e footer centralizados com max-width alinhado */
+
 header, footer {
   max-width: 1100px;
   margin: 18px auto;
   padding: 12px 20px;
 }
 
-/* estilo dos títulos das seções */
+
 .grid-main section h2 {
   margin-top: 0;
   color: var(--bordo, #6a0f16);
   font-size: 1.4rem;
 }
 
-/* pequenos ajustes responsivos */
+
 @media (max-width: 980px) {
   .site-wrapper {
-    grid-template-columns: 1fr; /* empilha sidebar abaixo no tablet */
+    grid-template-columns: 1fr; 
   }
   header, footer { padding: 10px 16px; }
 }
